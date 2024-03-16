@@ -15,6 +15,7 @@
     "@tsconfig/svelte": "^5.0.2",
     "@typescript-eslint/eslint-plugin": "^6.4.0",
     "@unocss/extractor-svelte": "^0.58.6",
+    "@unocss/preset-attributify": "^0.58.6",
     "daisyui": "^3.9.4",
     "prettier": "^3.2.5",
     "prettier-plugin-svelte": "^3.2.2",
