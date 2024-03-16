@@ -6,10 +6,10 @@ import extractorSvelte from "@unocss/extractor-svelte";
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
-    svelte(),
     UnoCSS({
       extractors: [extractorSvelte()],
       // other options
     }),
+    svelte(),
   ],
 });

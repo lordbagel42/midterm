@@ -1,13 +1,12 @@
 // uno.config.ts
-import { defineConfig } from "unocss";
+import { defineConfig, presetAttributify } from "unocss";
 import presetUno from "@unocss/preset-uno";
 import { presetDaisy } from "unocss-preset-daisy";
-import presetAttributify from '@unocss/preset-attributify';
 
 export default defineConfig({
   presets: [
     presetUno(),
-    presetAttributify(),
+    presetAttributify,
     presetDaisy({
       themes: ["light", "dark"],
     }),

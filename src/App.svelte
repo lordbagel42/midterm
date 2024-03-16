@@ -3,7 +3,7 @@
 </script>
 
 <main>
-  <div class="">
+  <div>
     <Navbar />
   </div>
 </main>
