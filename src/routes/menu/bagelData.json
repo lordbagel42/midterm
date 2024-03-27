@@ -2,76 +2,76 @@
     {
         "name": "Plain Bagel",
         "description": "A classic bagel with a chewy texture.",
-        "image": "https://placehold.co/600x400"
+        "image": "https://placehold.co/96x96"
     },
     {
         "name": "Everything Bagel",
         "description": "A flavorful bagel topped with a mix of seeds and spices.",
-        "image": "https://placehold.co/600x400"
+        "image": "https://placehold.co/96x96"
     },
     {
         "name": "Sesame Bagel",
         "description": "A bagel topped with sesame seeds for added flavor.",
-        "image": "https://placehold.co/600x400"
+        "image": "https://placehold.co/96x96"
     },
     {
         "name": "Poppy Seed Bagel",
         "description": "A bagel topped with poppy seeds for a unique taste.",
-        "image": "https://placehold.co/600x400"
+        "image": "https://placehold.co/96x96"
     },
     {
         "name": "Cinnamon Raisin Bagel",
         "description": "A sweet bagel with cinnamon swirls and raisins throughout.",
-        "image": "https://placehold.co/600x400"
+        "image": "https://placehold.co/96x96"
     },
     {
         "name": "Blueberry Bagel",
         "description": "A fruity bagel with blueberries mixed into the dough.",
-        "image": "https://placehold.co/600x400"
+        "image": "https://placehold.co/96x96"
     },
     {
         "name": "Onion Bagel",
         "description": "A savory bagel with onion flakes baked into the dough.",
-        "image": "https://placehold.co/600x400"
+        "image": "https://placehold.co/96x96"
     },
     {
         "name": "Garlic Bagel",
         "description": "A flavorful bagel infused with garlic for a bold taste.",
-        "image": "https://placehold.co/600x400"
+        "image": "https://placehold.co/96x96"
     },
     {
         "name": "Salt Bagel",
         "description": "A bagel topped with coarse salt for a savory crunch.",
-        "image": "https://placehold.co/600x400"
+        "image": "https://placehold.co/96x96"
     },
     {
         "name": "Pumpernickel Bagel",
         "description": "A dark and hearty bagel made with pumpernickel flour.",
-        "image": "https://placehold.co/600x400"
+        "image": "https://placehold.co/96x96"
     },
     {
         "name": "Whole Wheat Bagel",
         "description": "A nutritious bagel made with whole wheat flour.",
-        "image": "https://placehold.co/600x400"
+        "image": "https://placehold.co/96x96"
     },
     {
         "name": "Rye Bagel",
         "description": "A traditional bagel made with rye flour for a distinct flavor.",
-        "image": "https://placehold.co/600x400"
+        "image": "https://placehold.co/96x96"
     },
     {
         "name": "Cheddar Bagel",
         "description": "A savory bagel packed with sharp cheddar cheese.",
-        "image": "https://placehold.co/600x400"
+        "image": "https://placehold.co/96x96"
     },
     {
         "name": "Asiago Bagel",
         "description": "A cheese lover's delight, with Asiago cheese baked into the dough.",
-        "image": "https://placehold.co/600x400"
+        "image": "https://placehold.co/96x96"
     },
     {
         "name": "Jalapeno Bagel",
         "description": "A spicy bagel with bits of jalapeno pepper for a kick.",
-        "image": "https://placehold.co/600x400"
+        "image": "https://placehold.co/96x96"
     }
 ]
