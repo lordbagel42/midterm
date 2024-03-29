@@ -17,7 +17,19 @@
 			</svelte:fragment>
 			<svelte:fragment slot="trail">
 				<a
-					class="btn btn-sm variant-filled-secondary hover:bg-secondary-450 duration-[500ms]"
+					class="btn btn-sm variant-filled-primary hover:bg-primary-400 duration-[500ms]"
+					href="/contact"
+				>
+					Contact Us
+				</a>
+				<a
+					class="btn btn-sm variant-filled-primary hover:bg-primary-400 duration-[500ms]"
+					href="/discover"
+				>
+					Discover Your Bagel
+				</a>
+				<a
+					class="btn btn-sm variant-filled-primary hover:bg-primary-400 duration-[500ms]"
 					href="/menu"
 				>
 					Menu

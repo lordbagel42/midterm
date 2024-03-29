@@ -1,6 +1,6 @@
 <script>
 	// Importing the bagel data JSON file
-	import bagels from './bagelData.json';
+	import bagels from '$lib/bagelData.json';
 </script>
 
 <div class="flex flex-col items-center justify-center">
