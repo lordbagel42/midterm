@@ -7,11 +7,11 @@
     {#each bagels as bagel}
         <div class="w-full max-w-screen-lg mx-auto mb-4 relative">
             <div class="bg-surface shadow-md border border-gray-600 rounded-lg p-4 flex flex-col sm:flex-row">
-                <div class="sm:mr-4 w-96 h-96">
+                <div class="sm:mr-4 w-1/3">
                     <!-- Bagel Image Container -->
                     <img class="w-full h-full object-cover rounded" src={bagel.image} alt={bagel.name} />
                 </div>
-                <div class="flex flex-col text-wrap w-2/3">
+                <div class="flex flex-col w-2/3">
                     <!-- Bagel Details -->
                     <h3 class="font-semibold text-lg">{bagel.name}</h3>
                     <p class="">{bagel.description}</p>
@@ -36,4 +36,5 @@
         </div>
     {/each}
 </div>
+
 
