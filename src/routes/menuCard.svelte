@@ -4,7 +4,7 @@
 
 <div class="w-full max-w-screen-lg mx-auto mb-4 relative text-start">
 	<div class="bg-surface shadow-md border border-gray-600 rounded-lg p-4 flex flex-col sm:flex-row">
-		<div class="sm:mr-4 w-1/3">
+		<div class="sm:mr-4 sm:w-full lg:w-1/3">
 			<!-- Bagel Image Container -->
 			<img class="w-full h-full object-cover rounded" src={item.image} alt={item.name} />
 		</div>
