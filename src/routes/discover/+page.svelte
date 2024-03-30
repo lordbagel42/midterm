@@ -194,7 +194,7 @@
 						<div class="w-full max-w-screen-lg mx-auto mb-4 relative">
 							<h6 class="text-3xl">Your Perfect Bagel Is:</h6>
 							<div
-								class="bg-white shadow-md border border-gray-300 rounded-lg p-4 flex flex-col sm:flex-row text"
+								class="bg-surface shadow-md border border-gray-600 rounded-lg p-4 flex flex-col sm:flex-row text"
 							>
 								<div class="sm:mr-4">
 									<!-- Bagel Image-->
@@ -207,7 +207,7 @@
 								<div class="flex flex-col flex-grow">
 									<!-- Bagel Details -->
 									<h3 class="font-semibold text-lg">{bagel.name}</h3>
-									<p class="text-gray-600">{bagel.description}</p>
+									<p class="">{bagel.description}</p>
 									<!-- Bagel Qualities Table -->
 									<div class="mt-4">
 										<h4 class="font-semibold mb-2">Qualities:</h4>
