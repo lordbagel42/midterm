@@ -1,92 +1,302 @@
 [
-    {
-        "name": "Plain Bagel",
-        "description": "A classic bagel with a chewy texture.",
-        "image": "https://placehold.co/96x96",
-        "qualities": "Classic, Chewy, Traditional, Simple, Versatile, Satisfying, Doughy, Wholesome, Fresh, Tasty"
-    },
-    {
-        "name": "Everything Bagel",
-        "description": "A flavorful bagel topped with a mix of seeds and spices.",
-        "image": "https://placehold.co/96x96",
-        "qualities": "Flavorful, Seedy, Spicy, Multiseed, Aromatic, Exotic, Zesty, Robust, Crunchy, Irresistible"
-    },
-    {
-        "name": "Sesame Bagel",
-        "description": "A bagel topped with sesame seeds for added flavor.",
-        "image": "https://placehold.co/96x96",
-        "qualities": "Seedy, Nutritious, Toasted, Fragrant, Subtle, Delicate, Nutty, Golden, Balanced, Crisp"
-    },
-    {
-        "name": "Poppy Seed Bagel",
-        "description": "A bagel topped with poppy seeds for a unique taste.",
-        "image": "https://placehold.co/96x96",
-        "qualities": "Seedy, Unique, Artisanal, Rich, Earthy, Bold, Distinctive, Authentic, Handcrafted, Memorable"
-    },
-    {
-        "name": "Cinnamon Raisin Bagel",
-        "description": "A sweet bagel with cinnamon swirls and raisins throughout.",
-        "image": "https://placehold.co/96x96",
-        "qualities": "Sweet, Swirled, Raisin, Warm, Comforting, Indulgent, Cozy, Homely, Sugary, Nostalgic"
-    },
-    {
-        "name": "Blueberry Bagel",
-        "description": "A fruity bagel with blueberries mixed into the dough.",
-        "image": "https://placehold.co/96x96",
-        "qualities": "Fruity, Doughy, Blueberry, Juicy, Bursting, Refreshing, Summery, Bright, Juicy, Vibrant"
-    },
-    {
-        "name": "Onion Bagel",
-        "description": "A savory bagel with onion flakes baked into the dough.",
-        "image": "https://placehold.co/96x96",
-        "qualities": "Savory, Oniony, Fragrant, Robust, Savory, Aromatic, Rustic, Pungent, Hearty, Homey"
-    },
-    {
-        "name": "Garlic Bagel",
-        "description": "A flavorful bagel infused with garlic for a bold taste.",
-        "image": "https://placehold.co/96x96",
-        "qualities": "Flavorful, Bold, Garlicky, Intense, Aromatic, Piquant, Spicy, Rich, Tangy, Savory"
-    },
-    {
-        "name": "Salt Bagel",
-        "description": "A bagel topped with coarse salt for a savory crunch.",
-        "image": "https://placehold.co/96x96",
-        "qualities": "Savory, Crunchy, Salty, Crispy, Addictive, Seasoned, Tangy, Sharp, Bold, Distinctive"
-    },
-    {
-        "name": "Pumpernickel Bagel",
-        "description": "A dark and hearty bagel made with pumpernickel flour.",
-        "image": "https://placehold.co/96x96",
-        "qualities": "Dark, Hearty, Pumpernickel, Earthy, Robust, Dense, Rustic, Hearty, Wholesome, Satisfying"
-    },
-    {
-        "name": "Whole Wheat Bagel",
-        "description": "A nutritious bagel made with whole wheat flour.",
-        "image": "https://placehold.co/96x96",
-        "qualities": "Nutritious, Whole Wheat, Healthy, Fiber-rich, Nutty, Wholesome, Satisfying, Hearty, Earthy, Rustic"
-    },
-    {
-        "name": "Rye Bagel",
-        "description": "A traditional bagel made with rye flour for a distinct flavor.",
-        "image": "https://placehold.co/96x96",
-        "qualities": "Distinct, Traditional, Rye, Rustic, Hearty, Robust, Earthy, Authentic, Nutty, Savory"
-    },
-    {
-        "name": "Cheddar Bagel",
-        "description": "A savory bagel packed with sharp cheddar cheese.",
-        "image": "https://placehold.co/96x96",
-        "qualities": "Savory, Cheesy, Sharp, Rich, Creamy, Flavorful, Bold, Tangy, Melty, Irresistible"
-    },
-    {
-        "name": "Asiago Bagel",
-        "description": "A cheese lover's delight, with Asiago cheese baked into the dough.",
-        "image": "https://placehold.co/96x96",
-        "qualities": "Cheesy, Asiago, Bold, Nutty, Rich, Creamy, Savory, Irresistible, Unique, Indulgent"
-    },
-    {
-        "name": "Jalapeno Bagel",
-        "description": "A spicy bagel with bits of jalapeno pepper for a kick.",
-        "image": "https://placehold.co/96x96",
-        "qualities": "Spicy, Jalapeno, Fiery, Zesty, Bold, Tangy, Hot, Vibrant, Piquant, Exciting"
-    }
+	{
+		"name": "Everything Delight Bagel",
+		"description": "A savory delight with a nutty aroma, bold flavor, and zesty finish, topped with a variety of seeds and spices.",
+		"qualities": "Savory, Nutty, Aromatic, Bold, Zesty",
+		"image": "https://placehold.co/96x96"
+	},
+	{
+		"name": "Cinnamon Swirl Sensation",
+		"description": "Indulge in the sweet sensation of cinnamon swirls, crispy on the outside, and decadently fragrant on the inside.",
+		"qualities": "Sweet, Crispy, Decadent, Fragrant",
+		"image": "https://placehold.co/96x96"
+	},
+	{
+		"name": "Onion Bliss Bagel",
+		"description": "Experience the savory bliss of onions with a bold and tangy flavor that satisfies with every bite.",
+		"qualities": "Savory, Bold, Tangy",
+		"image": "https://placehold.co/96x96"
+	},
+	{
+		"name": "Sesame Serenade",
+		"description": "Embark on a journey of nutty crunchiness and savory richness with this sesame-topped serenade.",
+		"qualities": "Nutty, Crunchy, Rich, Savory",
+		"image": "https://placehold.co/96x96"
+	},
+	{
+		"name": "Poppy Seed Paradise",
+		"description": "Discover the paradise of crispy poppy seeds atop a savory bagel, offering a delightful crunch in every bite.",
+		"qualities": "Nutty, Crispy, Savory",
+		"image": "https://placehold.co/96x96"
+	},
+	{
+		"name": "Raisin Rapture Bagel",
+		"description": "Elevate your senses with this sweet and chewy bagel, filled with juicy raisins and a fragrant aroma.",
+		"qualities": "Sweet, Chewy, Fragrant, Juicy",
+		"image": "https://placehold.co/96x96"
+	},
+	{
+		"name": "Jalapeño Jazz Bagel",
+		"description": "Get ready to jazz up your taste buds with the spicy kick and bold tang of jalapeños.",
+		"qualities": "Spicy, Bold, Tangy",
+		"image": "https://placehold.co/96x96"
+	},
+	{
+		"name": "Garlic Gala Bagel",
+		"description": "Join the garlic gala with this savory, bold, and aromatic bagel, perfect for garlic lovers.",
+		"qualities": "Savory, Bold, Aromatic",
+		"image": "https://placehold.co/96x96"
+	},
+	{
+		"name": "Blueberry Burst Bagel",
+		"description": "Experience a burst of sweetness with juicy blueberries nestled within a tender and fluffy bagel.",
+		"qualities": "Sweet, Juicy, Fluffy, Tender",
+		"image": "https://placehold.co/96x96"
+	},
+	{
+		"name": "Sun-Dried Tomato Tango",
+		"description": "Tango with tangy sun-dried tomatoes and bold flavors, making each bite a robust and hearty experience.",
+		"qualities": "Tangy, Bold, Robust, Hearty",
+		"image": "https://placehold.co/96x96"
+	},
+	{
+		"name": "Honey Wheat Harmony",
+		"description": "Achieve harmony in every bite with the sweet touch of honey and the nutty flavor of whole wheat.",
+		"qualities": "Sweet, Nutty, Chewy, Tender",
+		"image": "https://placehold.co/96x96"
+	},
+	{
+		"name": "Chocolate Chip Cheer Bagel",
+		"description": "Find cheer in the decadent richness of chocolate chips, bringing joy with every crunchy bite.",
+		"qualities": "Sweet, Decadent, Rich, Crunchy",
+		"image": "https://placehold.co/96x96"
+	},
+	{
+		"name": "Cranberry Craze Bagel",
+		"description": "Embrace the craze of tart cranberries and sweet flavors, delivering a chewy and juicy delight.",
+		"qualities": "Tart, Sweet, Chewy, Juicy",
+		"image": "https://placehold.co/96x96"
+	},
+	{
+		"name": "Maple Madness Bagel",
+		"description": "Experience madness in the sweetness of maple, paired with decadent richness and a fragrant aroma.",
+		"qualities": "Sweet, Decadent, Rich, Fragrant",
+		"image": "https://placehold.co/96x96"
+	},
+	{
+		"name": "Pesto Passion Bagel",
+		"description": "Ignite your passion for bold flavors with the herbaceous touch of pesto and nutty richness.",
+		"qualities": "Herbaceous, Savory, Bold, Nutty",
+		"image": "https://placehold.co/96x96"
+	},
+	{
+		"name": "Asiago Amore Bagel",
+		"description": "Fall in love with the savory, bold, and robust flavors of asiago cheese, an irresistible amore.",
+		"qualities": "Savory, Bold, Robust",
+		"image": "https://placehold.co/96x96"
+	},
+	{
+		"name": "Spinach Supreme Bagel",
+		"description": "Indulge in the supreme blend of savory spinach and nutty goodness, offering a hearty and tender bite.",
+		"qualities": "Savory, Nutty, Hearty, Tender",
+		"image": "https://placehold.co/96x96"
+	},
+	{
+		"name": "Raspberry Ripple Bagel",
+		"description": "Let the sweet and tart flavors of raspberries create a delightful ripple in each fragrant bite.",
+		"qualities": "Sweet, Tart, Juicy, Fragrant",
+		"image": "https://placehold.co/96x96"
+	},
+	{
+		"name": "Almond Joy Bagel",
+		"description": "Experience the joy of sweetness and crunchiness with almonds, creating a decadent and nutty delight.",
+		"qualities": "Sweet, Nutty, Decadent, Crunchy",
+		"image": "https://placehold.co/96x96"
+	},
+	{
+		"name": "Cheddar Charm Bagel",
+		"description": "Be charmed by the savory and sharp flavors of cheddar cheese, offering a robust and satisfying experience.",
+		"qualities": "Savory, Sharp, Robust",
+		"image": "https://placehold.co/96x96"
+	},
+	{
+		"name": "Lemon Zest Zinger Bagel",
+		"description": "Feel the zing of tartness and citrusy freshness with each bite, igniting your taste buds with zest.",
+		"qualities": "Tart, Sweet, Citrusy, Zesty",
+		"image": "https://placehold.co/96x96"
+	},
+	{
+		"name": "Artichoke Affair Bagel",
+		"description": "Embark on an affair with savory artichokes, tender and herbaceous, creating a delightful bagel experience.",
+		"qualities": "Savory, Herbaceous, Tender",
+		"image": "https://placehold.co/96x96"
+	},
+	{
+		"name": "Pumpkin Pleasure Bagel",
+		"description": "Delight in the pleasure of spicy pumpkin goodness, rich and decadent, bringing warmth with every bite.",
+		"qualities": "Sweet, Spicy, Decadent, Rich",
+		"image": "https://placehold.co/96x96"
+	},
+	{
+		"name": "Fig Fandango Bagel",
+		"description": "Get lost in the fandango of earthy figs, decadent richness, and sweet flavors in every bite.",
+		"qualities": "Sweet, Earthy, Decadent, Rich",
+		"image": "https://placehold.co/96x96"
+	},
+	{
+		"name": "Walnut Wonder Bagel",
+		"description": "Experience the wonder of nutty crunchiness and decadent richness with every bite of this walnut bagel.",
+		"qualities": "Nutty, Crunchy, Decadent, Rich",
+		"image": "https://placehold.co/96x96"
+	},
+	{
+		"name": "Pistachio Perfection Bagel",
+		"description": "Discover perfection in the nutty crunchiness and decadent richness of pistachios in every bite.",
+		"qualities": "Nutty, Crunchy, Decadent, Rich",
+		"image": "https://placehold.co/96x96"
+	},
+	{
+		"name": "Rosemary Romance Bagel",
+		"description": "Fall in love with the romance of savory rosemary, aromatic and bold, creating an irresistible bagel experience.",
+		"qualities": "Herbaceous, Savory, Aromatic",
+		"image": "https://placehold.co/96x96"
+	},
+	{
+		"name": "Chai Spice Celebration",
+		"description": "Celebrate the spice of life with the rich, fragrant, and spicy flavors of chai in every delightful bite.",
+		"qualities": "Spicy, Aromatic, Rich, Fragrant",
+		"image": "https://placehold.co/96x96"
+	},
+	{
+		"name": "Oatmeal Oasis Bagel",
+		"description": "Escape to an oasis of nutty chewiness and hearty goodness with this oatmeal-packed bagel delight.",
+		"qualities": "Nutty, Chewy, Hearty",
+		"image": "https://placehold.co/96x96"
+	},
+	{
+		"name": "Pepperoni Pizzazz Bagel",
+		"description": "Experience the pizzazz of spicy pepperoni, savory flavors, and crunchy goodness in every satisfying bite.",
+		"qualities": "Spicy, Savory, Bold, Crunchy",
+		"image": "https://placehold.co/96x96"
+	},
+	{
+		"name": "Olive Ovation Bagel",
+		"description": "Give an ovation to the briny, bold, and savory flavors of olives in every delightful bite.",
+		"qualities": "Savory, Briny, Bold",
+		"image": "https://placehold.co/96x96"
+	},
+	{
+		"name": "Apple Cider Celebration",
+		"description": "Celebrate the sweet and tart flavors of apple cider, infused with spices and fragrant aromas.",
+		"qualities": "Sweet, Tart, Spicy, Fragrant",
+		"image": "https://placehold.co/96x96"
+	},
+	{
+		"name": "Cran-Apple Concoction",
+		"description": "Indulge in the concoction of sweet apples and tart cranberries, creating a juicy, fragrant delight.",
+		"qualities": "Sweet, Tart, Juicy, Fragrant",
+		"image": "https://placehold.co/96x96"
+	},
+	{
+		"name": "Blueberry Basil Bonanza",
+		"description": "Experience a bonanza of sweetness and herbaceousness with the delightful blend of blueberries and basil.",
+		"qualities": "Sweet, Herbaceous, Tart, Fragrant",
+		"image": "https://placehold.co/96x96"
+	},
+	{
+		"name": "Carrot Cake Carnival",
+		"description": "Join the carnival of sweet, spicy carrot cake flavors, decadently rich and satisfying in every bite.",
+		"qualities": "Sweet, Spicy, Decadent, Rich",
+		"image": "https://placehold.co/96x96"
+	},
+	{
+		"name": "Pecan Passion Bagel",
+		"description": "Savor the passion of nutty sweetness and decadent crunchiness in every delightful bite of this pecan bagel.",
+		"qualities": "Nutty, Sweet, Decadent, Crunchy",
+		"image": "https://placehold.co/96x96"
+	},
+	{
+		"name": "Sourdough Surprise Bagel",
+		"description": "Be pleasantly surprised by the tangy, hearty, and chewy goodness of this sourdough bagel.",
+		"qualities": "Tangy, Hearty, Chewy",
+		"image": "https://placehold.co/96x96"
+	},
+	{
+		"name": "Banana Bread Bliss Bagel",
+		"description": "Indulge in the bliss of sweet, nutty banana bread flavors, decadently moist and satisfying in every bite.",
+		"qualities": "Sweet, Nutty, Decadent, Moist",
+		"image": "https://placehold.co/96x96"
+	},
+	{
+		"name": "Mocha Madness Bagel",
+		"description": "Experience madness with rich mocha flavors, decadent sweetness, and fragrant aromas in every delightful bite.",
+		"qualities": "Sweet, Rich, Decadent, Fragrant",
+		"image": "https://placehold.co/96x96"
+	},
+	{
+		"name": "Peanut Butter Pleaser",
+		"description": "Be pleased with the creamy, nutty delight of peanut butter, satisfyingly sweet and decadent in every bite.",
+		"qualities": "Sweet, Nutty, Decadent, Creamy",
+		"image": "https://placehold.co/96x96"
+	},
+	{
+		"name": "Caramel Crunch Bagel",
+		"description": "Crunch into the decadent sweetness of caramel, creating a rich and crunchy delight in every bite.",
+		"qualities": "Sweet, Decadent, Crunchy, Rich",
+		"image": "https://placehold.co/96x96"
+	},
+	{
+		"name": "Coconut Cream Carnival",
+		"description": "Join the carnival of creamy coconut flavors, sweet and decadent, creating a rich and satisfying delight.",
+		"qualities": "Sweet, Creamy, Decadent, Rich",
+		"image": "https://placehold.co/96x96"
+	},
+	{
+		"name": "Spinach and Feta Fiesta",
+		"description": "Join the fiesta of savory spinach and tangy feta flavors, creamy and hearty in every delightful bite.",
+		"qualities": "Savory, Tangy, Creamy, Hearty",
+		"image": "https://placehold.co/96x96"
+	},
+	{
+		"name": "Truffle Temptation Bagel",
+		"description": "Indulge in the temptation of rich truffle flavors, savory and aromatic, creating a decadent bagel delight.",
+		"qualities": "Decadent, Rich, Savory, Aromatic",
+		"image": "https://placehold.co/96x96"
+	},
+	{
+		"name": "Mango Tango Bagel",
+		"description": "Get into the rhythm of sweet mango flavors, tangy and juicy, creating a fragrant tropical delight.",
+		"qualities": "Sweet, Tangy, Juicy, Fragrant",
+		"image": "https://placehold.co/96x96"
+	},
+	{
+		"name": "Pineapple Paradise Bagel",
+		"description": "Transport yourself to a paradise of sweet pineapple flavors, tangy and juicy, creating a tropical delight.",
+		"qualities": "Sweet, Tangy, Juicy, Fragrant",
+		"image": "https://placehold.co/96x96"
+	},
+	{
+		"name": "Lemon Poppy Panache",
+		"description": "Experience the panache of tart lemon flavors and crunchy poppy seeds, creating a delightful citrusy bite.",
+		"qualities": "Tart, Sweet, Citrusy, Crunchy",
+		"image": "https://placehold.co/96x96"
+	},
+	{
+		"name": "Raspberry Rose Bagel",
+		"description": "Delight in the floral sweetness of raspberries, tart and juicy, creating a fragrant and elegant bagel experience.",
+		"qualities": "Sweet, Tart, Floral, Juicy",
+		"image": "https://placehold.co/96x96"
+	},
+	{
+		"name": "Brown Sugar Bliss Bagel",
+		"description": "Experience bliss with the sweet richness of brown sugar, decadent and crunchy, creating a delightful treat.",
+		"qualities": "Sweet, Decadent, Rich, Crunchy",
+		"image": "https://placehold.co/96x96"
+	},
+	{
+		"name": "Chai Latte Love Bagel",
+		"description": "Fall in love with the spicy, sweet, and creamy flavors of chai latte, creating a fragrant and indulgent delight.",
+		"qualities": "Spicy, Sweet, Aromatic, Creamy",
+		"image": "https://placehold.co/96x96"
+	}
 ]
