@@ -1,8 +1,8 @@
 <script lang="ts">
-	import Hero from './hero.svelte';
-    import Features from './features.svelte';
-	import FeatureList from './featurelist.svelte';
-	import CallToAction from './calltoaction.svelte'
+	import Hero from '$lib/components/home/hero.svelte';
+    import Features from '$lib/components/home/features.svelte';
+	import FeatureList from '$lib/components/home/featurelist.svelte';
+	import CallToAction from '$lib/components/home/calltoaction.svelte'
 </script>
 
 <Hero />

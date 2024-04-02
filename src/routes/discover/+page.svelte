@@ -2,7 +2,7 @@
 	import { writable } from 'svelte/store';
 	import bagels from '$lib/bagelData.json';
 	import qualitiesData from '$lib/qualities.json';
-	import MenuCard from '../menuCard.svelte';
+	import MenuCard from '$lib/components/Cards/menuCard.svelte';
 
 	// Define types for bagel and qualities
 	type Bagel = {
