@@ -42,6 +42,12 @@
 				</a>
 			</svelte:fragment>
 		</AppBar>
+	
+	</svelte:fragment>
+	<svelte:fragment slot="footer">
+		<div class="flex justify-center items-center">
+			<p class="text-sm text-gray-500">© 2024 Bagel Industries. All rights reserved.</p>
+		</div>
 	</svelte:fragment>
 	<!-- Page Route Content -->
 	<slot />
