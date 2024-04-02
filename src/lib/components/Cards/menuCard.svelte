@@ -34,6 +34,6 @@
 	</div>
 	<!-- Add To Cart Button -->
 	<div class="absolute bottom-0 right-0 mb-4 mr-4">
-		<button class="btn btn-sm bg-blue-500 px-4 py-2 rounded text-white">Add To Cart</button>
+		<a class="btn btn-sm bg-blue-500 px-4 py-2 rounded text-white" href="/order">Buy Now</a>
 	</div>
 </div>
