@@ -1,38 +1,38 @@
-# create-svelte
+# midterm
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+Midterm for my Intro to Web Development & Programming class.
+This is severely over done, as I have used SvelteKit and skeletonUI, when we were taught to use vanilla JS and raw HTML.
 
-## Creating a project
+## Running Locally
 
-If you're seeing this, you've probably already done this step. Congrats!
+This site is hosted on https://bagelindustries.com/
 
+It can be ran locally via the following commands:
 ```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
+git clone https://github.com/lordbagel42/midterm && cd midterm
+pnpm i
+pnpm run dev
 ```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
+OR
 ```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+git clone https://github.com/lordbagel42/midterm && cd midterm
+bun i
+bun run dev
 ```
+This site will eventually be migrated to a Bun runtime, and bun has the capability to install packages MUCH faster than `npm`, `pnpm`, or `yarn`.
 
 ## Building
 
 To create a production version of your app:
 
 ```bash
-npm run build
+pnpm run build
+```
+OR
+```bash
+bun run build
 ```
 
 You can preview the production build with `npm run preview`.
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+> This project uses the Cloudflare Pages adapter.
