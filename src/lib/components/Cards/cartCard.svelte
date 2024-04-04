@@ -1,18 +1,13 @@
 <script lang="ts">
 	import { Cart } from '$lib/cart/cart';
 	export let item: { image: string; name: string; description: string; qualities: string };
-
-	export const addToCart = (name: string) => {
-		// Update the store with the new item
-		Cart.update((items) => [...items, name]);
-	};
 </script>
 
 <div class="w-full max-w-screen-lg mx-auto mb-4 relative text-start">
 	<div class="bg-surface shadow-md border border-gray-600 rounded-lg p-4 flex flex-col sm:flex-row">
 		<div class="sm:mr-4 sm:w-full lg:w-1/3">
 			<!-- Bagel Image Container -->
-			<img class="w-full h-full object-cover rounded" src={item.image} alt={item.name} />
+			<img class="w-1/3 h-1/3 object-cover rounded" src={item.image} alt={item.name} />
 		</div>
 		<div class="flex flex-col w-2/3">
 			<!-- Bagel Details -->
