@@ -1,11 +1,29 @@
 <script lang="ts">
+	let status = '';
+	const handleSubmit = async (data) => {
+		status = 'Submitting...';
+		const formData = new FormData(data.currentTarget);
+		const object = Object.fromEntries(formData);
+		const json = JSON.stringify(object);
+
+		const response = await fetch('https://api.web3forms.com/submit', {
+			method: 'POST',
+			headers: {
+				'Content-Type': 'application/json',
+				Accept: 'application/json'
+			},
+			body: json
+		});
+		const result = await response.json();
+		if (result.success) {
+			console.log(result);
+			status = result.message || 'Success';
+		}
+	};
+
 	let name = '';
 	let email = '';
 	let message = '';
-
-	function handleSubmit() {
-		// Handle form submission logic here
-	}
 </script>
 
 <div class="min-h-screen flex items-center justify-center bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
@@ -15,6 +33,7 @@
 		</div>
 		<form class="mt-8 space-y-6" on:submit|preventDefault={handleSubmit}>
 			<input type="hidden" name="remember" value="true" />
+			<input type="hidden" name="access_key" value="1320797b-54ab-4ceb-8027-14a5b075a7c1">
 			<div class="rounded-md shadow-sm -space-y-px">
 				<div>
 					<label for="name" class="sr-only">Name</label>
@@ -63,5 +82,6 @@
 				</button>
 			</div>
 		</form>
+		<div class="text-center">{status}</div>
 	</div>
 </div>
