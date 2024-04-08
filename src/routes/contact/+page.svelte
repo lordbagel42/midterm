@@ -1,23 +1,11 @@
 <script lang="ts">
 	let status = '';
-	const handleSubmit = async (data) => {
-		status = 'Submitting...';
-		const formData = new FormData(data.currentTarget);
-		const object = Object.fromEntries(formData);
-		const json = JSON.stringify(object);
-
-		const response = await fetch('https://api.web3forms.com/submit', {
-			method: 'POST',
-			headers: {
-				'Content-Type': 'application/json',
-				Accept: 'application/json'
-			},
-			body: json
-		});
-		const result = await response.json();
-		if (result.success) {
-			console.log(result);
-			status = result.message || 'Success';
+	const handleSubmit = (event: { preventDefault: () => void; }) => {
+		event.preventDefault();
+		if (name !== '' && email !== '' && message !== '') {
+			window.location.href = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ';
+		} else {
+			status = 'Please fill out all fields before submitting.';
 		}
 	};
 
