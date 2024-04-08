@@ -44,7 +44,7 @@
 			class="btn btn-sm bg-blue-500 px-4 py-2 rounded text-white"
 			on:click={() => addToCart(item.name)}
 		>
-			Buy Now</button
+			Add To Cart</button
 		>
 	</div>
 </div>

@@ -114,5 +114,6 @@
 		"transition",
 		"width",
 		"zIndex"
-	]
+	],
+	"remote.autoForwardPortsFallback": 0
 }
