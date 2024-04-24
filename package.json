@@ -42,8 +42,5 @@
 	"type": "module",
 	"trustedDependencies": [
 		"svelte-preprocess"
-	],
-	"dependencies": {
-		"@sentry/sveltekit": "^7.112.1"
-	}
+	]
 }
