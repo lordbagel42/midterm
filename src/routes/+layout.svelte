@@ -38,7 +38,7 @@
 					class="btn btn-sm variant-filled-primary hover:bg-primary-400 duration-[500ms]"
 					href="/order"
 				>
-					Order Now
+					Cart
 				</a>
 			</svelte:fragment>
 		</AppBar>
