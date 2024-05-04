@@ -1,7 +1,14 @@
+import { createEsbuildPlugin } from 'vite-plugin-esbuild';
 import { purgeCss } from 'vite-plugin-tailwind-purgecss';
-import { sveltekit } from '@sveltejs/kit/vite';
 import { defineConfig } from 'vite';
+import { createSvite } from '@svitejs/core/vite';
 
 export default defineConfig({
-	plugins: [sveltekit(), purgeCss()]
+  plugins: [
+    createSvite(),
+    createEsbuildPlugin(),
+    purgeCss({
+      content: ['src/**/*.svelte']
+    })
+  ]
 });
