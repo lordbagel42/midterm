@@ -1,4 +1,4 @@
 # Ignore files for PNPM, NPM and YARN
-pnpm-lock.yaml
-package-lock.json
-yarn.lock
+echo "pnpm-lock.yaml" > .git/info/exclude
+echo "package-lock.json" >> .git/info/exclude
+echo "yarn.lock" >> .git/info/exclude
