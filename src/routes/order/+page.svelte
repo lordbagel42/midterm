@@ -3,13 +3,10 @@
 	import CartCard from '$lib/components/Cards/cartCard.svelte';
 	import { Cart } from '$lib/cart/cart';
 
-	let cartItems: { name: string; quantity: number }[] = []; // Assuming the local storage contains an array of objects with "name" and "quantity" properties
-	Cart.subscribe((value) => {
-		cartItems = value;
-	});
+	let cartItems: { name: string; quantity: number }[] = Cart.get(); // Get the current cart items from the Cart store
 
-	let bagelData: any[] = bagels;
-	let displayItems: any[] = [];
+	const bagelData = bagels; // No need to reassign the imported data
+	let displayItems: { name: string; price: number; quantity: number }[] = [];
 
 	function findBagelByName(name: string) {
 		return bagelData.find((bagel) => bagel.name === name);
@@ -23,7 +20,7 @@
 	$: {
 		displayItems = cartItems
 			.map((item) => {
-				let foundBagel = findBagelByName(item.name);
+				const foundBagel = findBagelByName(item.name);
 				if (foundBagel) {
 					return {
 						...foundBagel,
@@ -57,3 +54,4 @@
         </div>
     </div>
 </div>
+
