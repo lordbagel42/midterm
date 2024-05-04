@@ -1,1 +1,50 @@
-var U=Object.defineProperty;var V=(e,t,n)=>t in e?U(e,t,{enumerable:!0,configurable:!0,writable:!0,value:n}):e[t]=n;var g=(e,t,n)=>(V(e,typeof t!="symbol"?t+"":t,n),n);(function(){const t=document.createElement("link").relList;if(t&&t.supports&&t.supports("modulepreload"))return;for(const i of document.querySelectorAll('link[rel="modulepreload"]'))r(i);new MutationObserver(i=>{for(const o of i)if(o.type==="childList")for(const f of o.addedNodes)f.tagName==="LINK"&&f.rel==="modulepreload"&&r(f)}).observe(document,{childList:!0,subtree:!0});function n(i){const o={};return i.integrity&&(o.integrity=i.integrity),i.referrerPolicy&&(o.referrerPolicy=i.referrerPolicy),i.crossOrigin==="use-credentials"?o.credentials="include":i.crossOrigin==="anonymous"?o.credentials="omit":o.credentials="same-origin",o}function r(i){if(i.ep)return;i.ep=!0;const o=n(i);fetch(i.href,o)}})();function c(){}function j(e){return e()}function A(){return Object.create(null)}function m(e){e.forEach(j)}function I(e){return typeof e=="function"}function B(e,t){return e!=e?t==t:e!==t||e&&typeof e=="object"||typeof e=="function"}function z(e){return Object.keys(e).length===0}function D(e,t){e.appendChild(t)}function C(e,t,n){e.insertBefore(t,n||null)}function v(e){e.parentNode&&e.parentNode.removeChild(e)}function y(e){return document.createElement(e)}function G(e,t,n){n==null?e.removeAttribute(t):e.getAttribute(t)!==n&&e.setAttribute(t,n)}function J(e){return Array.from(e.childNodes)}let w;function h(e){w=e}const a=[],P=[];let d=[];const S=[],Q=Promise.resolve();let b=!1;function W(){b||(b=!0,Q.then(M))}function x(e){d.push(e)}const $=new Set;let l=0;function M(){if(l!==0)return;const e=w;do{try{for(;l<a.length;){const t=a[l];l++,h(t),X(t.$$)}}catch(t){throw a.length=0,l=0,t}for(h(null),a.length=0,l=0;P.length;)P.pop()();for(let t=0;t<d.length;t+=1){const n=d[t];$.has(n)||($.add(n),n())}d.length=0}while(a.length);for(;S.length;)S.pop()();b=!1,$.clear(),h(e)}function X(e){if(e.fragment!==null){e.update(),m(e.before_update);const t=e.dirty;e.dirty=[-1],e.fragment&&e.fragment.p(e.ctx,t),e.after_update.forEach(x)}}function Y(e){const t=[],n=[];d.forEach(r=>e.indexOf(r)===-1?t.push(r):n.push(r)),n.forEach(r=>r()),d=t}const _=new Set;let Z;function q(e,t){e&&e.i&&(_.delete(e),e.i(t))}function k(e,t,n,r){if(e&&e.o){if(_.has(e))return;_.add(e),Z.c.push(()=>{_.delete(e),r&&(n&&e.d(1),r())}),e.o(t)}else r&&r()}function ee(e){e&&e.c()}function F(e,t,n){const{fragment:r,after_update:i}=e.$$;r&&r.m(t,n),x(()=>{const o=e.$$.on_mount.map(j).filter(I);e.$$.on_destroy?e.$$.on_destroy.push(...o):m(o),e.$$.on_mount=[]}),i.forEach(x)}function H(e,t){const n=e.$$;n.fragment!==null&&(Y(n.after_update),m(n.on_destroy),n.fragment&&n.fragment.d(t),n.on_destroy=n.fragment=null,n.ctx=[])}function te(e,t){e.$$.dirty[0]===-1&&(a.push(e),W(),e.$$.dirty.fill(0)),e.$$.dirty[t/31|0]|=1<<t%31}function K(e,t,n,r,i,o,f=null,T=[-1]){const p=w;h(e);const s=e.$$={fragment:null,ctx:[],props:o,update:c,not_equal:i,bound:A(),on_mount:[],on_destroy:[],on_disconnect:[],before_update:[],after_update:[],context:new Map(t.context||(p?p.$$.context:[])),callbacks:A(),dirty:T,skip_bound:!1,root:t.target||p.$$.root};f&&f(s.root);let O=!1;if(s.ctx=n?n(e,t.props||{},(u,E,...N)=>{const L=N.length?N[0]:E;return s.ctx&&i(s.ctx[u],s.ctx[u]=L)&&(!s.skip_bound&&s.bound[u]&&s.bound[u](L),O&&te(e,u)),E}):[],s.update(),O=!0,m(s.before_update),s.fragment=r?r(s.ctx):!1,t.target){if(t.hydrate){const u=J(t.target);s.fragment&&s.fragment.l(u),u.forEach(v)}else s.fragment&&s.fragment.c();t.intro&&q(e.$$.fragment),F(e,t.target,t.anchor),M()}h(p)}class R{constructor(){g(this,"$$");g(this,"$$set")}$destroy(){H(this,1),this.$destroy=c}$on(t,n){if(!I(n))return c;const r=this.$$.callbacks[t]||(this.$$.callbacks[t]=[]);return r.push(n),()=>{const i=r.indexOf(n);i!==-1&&r.splice(i,1)}}$set(t){this.$$set&&!z(t)&&(this.$$.skip_bound=!0,this.$$set(t),this.$$.skip_bound=!1)}}const ne="4";typeof window<"u"&&(window.__svelte||(window.__svelte={v:new Set})).v.add(ne);function re(e){let t;return{c(){t=y("div"),t.innerHTML='<div class="flex-1 justify-center"><a class="btn btn-ghost text-3xl" href="https://bagelindustries.com/">Bagel Industries</a></div>',G(t,"class","navbar bg-base-100")},m(n,r){C(n,t,r)},p:c,i:c,o:c,d(n){n&&v(t)}}}class ie extends R{constructor(t){super(),K(this,t,null,re,B,{})}}function oe(e){let t,n,r,i;return r=new ie({}),{c(){t=y("main"),n=y("div"),ee(r.$$.fragment)},m(o,f){C(o,t,f),D(t,n),F(r,n,null),i=!0},p:c,i(o){i||(q(r.$$.fragment,o),i=!0)},o(o){k(r.$$.fragment,o),i=!1},d(o){o&&v(t),H(r)}}}class se extends R{constructor(t){super(),K(this,t,null,oe,B,{})}}new se({target:document.getElementById("app")});
+const addModulePreloadLink = () => {
+  const linkRelList = document.createElement("link").relList;
+  if (linkRelList && linkRelList.supports && linkRelList.supports("modulepreload")) return;
+
+  for (const existingLink of document.querySelectorAll('link[rel="modulepreload"]')) {
+    handleLink(existingLink);
+  }
+
+  new MutationObserver(mutations => {
+    for (const mutation of mutations) {
+      if (mutation.type === "childList") {
+        for (const addedNode of mutation.addedNodes) {
+          if (addedNode.tagName === "LINK" && addedNode.rel === "modulepreload") {
+            handleLink(addedNode);
+          }
+        }
+      }
+    }
+  }).observe(document, { childList: true, subtree: true });
+
+  function handleLink(link) {
+    if (link.ep) return;
+    link.ep = true;
+    const options = {
+      integrity: link.integrity,
+      referrerPolicy: link.referrerPolicy,
+      credentials: link.crossOrigin === "use-credentials" ? "include" : link.crossOrigin === "anonymous" ? "omit" : "same-origin"
+    };
+    fetch(link.href, options);
+  }
+};
+
+const createNavbar = () => {
+  const navbar = document.createElement("div");
+  navbar.innerHTML = `
+    <div class="flex-1 justify-center">
+      <a class="btn btn-ghost text-3xl" href="https://bagelindustries.com/">Bagel Industries</a>
+    </div>
+  `;
+  navbar.setAttribute("class", "navbar bg-base-100");
+  return navbar;
+};
+
+const initializeApp = () => {
+  const app = document.getElementById("app");
+  app.appendChild(createNavbar());
+  addModulePreloadLink();
+};
+
+initializeApp();
